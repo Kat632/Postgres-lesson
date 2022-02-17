@@ -5,7 +5,7 @@ import psycopg2
 connection = psycopg2.connect(database="chinook")
 
 
-#build a cursor object
+# build a cursor object
 cursor = connection.cursor()
 
 # Query 1 - Select all records from the "Artist" table
